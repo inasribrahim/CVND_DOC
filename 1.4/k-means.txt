@@ -1,0 +1,80 @@
+phase one
+	-input image frame from camera   
+			image acquisition 
+
+phase two 
+	- keypoints extraction using SIFT 
+
+Phase three 
+	obtainig Visual words 
+
+Phse four 
+	Classifier training 
+
+
+image acquisition 
+------------------
+	we create a dataset
+	
+image segmentation using k-means algorithm. 
+-------------------------------------------- 
+step 1
+in ciitiaiton 
+	- Review on determining number of cluster in k-means clustering interantional journal of advance research in computer science and managment.  
+			Choose the number of k cluster to determine the right k number of clusters (k),we tried of the methods presented in 
+				1- The first method we used was the rule of thumb in 2 for estimating the k number of cluster k = gzr(n/2).
+				2- the second method we used was the ELbow Method. hands-on Machine learning with Scikit-Learn, karas & Tensorflow(275)  
+step 2  
+	select a random k points the centroids 
+
+step 3 
+	Assign each data point to the cloest cloest centroid the from k-cluster 
+
+step 4 
+	Complete and place the new centroid of each cluster 
+
+step 5 
+	Reassign each the data point to the new cloest centroid.
+		if any reassignment took place. go to STEP 4. otherwise go to FIN.
+
+
+  
+Classifier Model Genration we tried of the classifier presented in
+	1- the first classifer is support vector machine, in short SVM it is machine learning tradiaonal tecqnique.
+	2- the second classifer is You only once Look , in short YOLO with ccn or fully convolutional Networks. 2015 paper 25 by Jonathan Long et al 
+
+
+if you use A Support vector machine to citiation from papaer A counter Medication Classifier Using Mahine  Learning and computer vision Techniques ISSN 1870-4049 
+
+A Support Vector Machine in short (SVM) is a powerful and versatile Machine Learning model, capable of performing Linear or nonlinear classification, regression and even outlier detecion using Nonlinear SVM classification.
+The SVM used kernal 
+	- Gaussian RBF Kernel it is feature method can be useful with any Machine learning algorithm, but it may be computationally expensive to compute all additional features, espeically on large training sets.
+		it is kernal trick and magic to making it possible to obtain a similar resut as if you had added many similarity feature.
+
+
+
+
+Feature extraction 
+	Scale invarient Feature Transform , in short SIFT to detect local invaiant descripotrs inside of each medicaian`s video frame 
+		advantage 
+			The descripotrs do not change if the image is scaled, rotated or even its intensity is changed 
+	Differnece-of-gaussian(DOG) Function to identify potential interest key point	
+
+
+HOS in citiation 
+	- Tomatoas classifier using color histograms in internal confernec on advance in engineering Scinece and managment 2015   
+Histogram of oriented Gradient 
+
+
+in medicine citization 
+	-image analysis and computer vision in medicine comptuerized medical imaging and graphic 
+	- Medical computer vision virtual realty and robotics image and vision computing 295-313 1995 
+
+
+
+
+	 
+
+				
+
+	 
